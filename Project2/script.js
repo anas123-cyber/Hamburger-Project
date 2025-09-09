@@ -7,7 +7,7 @@ const navbar = document.querySelector('.navbar')
 
 hamburgerIcon.addEventListener('click',(e)=>{
     e.stopPropagation()
-    headerContent.classList.add('menu-open')
+    headerContent.classList.add('menu-open') 
 })
 
 navbar.addEventListener('click',(e)=>{
